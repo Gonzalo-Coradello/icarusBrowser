@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+html {
+  font-size: 62.5%; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+body {
+  height: 100vh;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #4f0a87 74%); }
+
+h1, .text, .navTitle, .boton, .features {
+  font-family: 'Jost', sans-serif; }
+
+h1 {
+  color: #FDE74C;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 2; }
+  h1 span {
+    color: #FFF;
+    font-weight: 100; }
+
+.divTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.navContainer {
+  background-color: #222;
+  height: 5rem; }
+
+.text {
+  color: #FFF;
+  font-size: 1.7rem;
+  font-weight: 300; }
+  .text:hover {
+    color: #FDE74C; }
+
+.navTitle {
+  font-weight: 600; }
+
+.boton {
+  color: #FFF;
+  border-color: #FFF;
+  font-size: 1.7rem;
+  font-weight: 400;
+  border-radius: 5px; }
+  .boton:hover {
+    color: #000;
+    background-color: #FDE74C;
+    border-color: #FDE74C; }
+
+.diagonal {
+  background-color: #222222AA;
+  transform: rotate(5deg);
+  width: 500rem;
+  height: 100rem;
+  position: relative;
+  left: -50rem;
+  top: 18rem; }
+
+.sectionContainer {
+  height: 131vh;
+  width: 100vw;
+  overflow: hidden; }
+
+.downloadCard {
+  height: 45rem;
+  width: 50rem;
+  margin: 0 auto;
+  border-radius: 18px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  transform: translateY(-80rem);
+  background-color: #222;
+  color: #FFF; }
+  .downloadCard span {
+    color: #FDE74C; }
+  .downloadCard h2, .downloadCard h4, .downloadCard button {
+    font-size: 2.5rem;
+    text-align: center; }
+
+.wave {
+  transform: translateY(-25rem); }
+
+footer {
+  background-color: #4f0a87;
+  height: 50rem;
+  z-index: 10; }
+
+.columna {
+  background-color: #222222AA;
+  height: 45rem;
+  margin-left: 5px;
+  border-radius: 18px;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.featuresHeader {
+  color: #FDE74C;
+  font-weight: 600;
+  justify-self: center;
+  font-size: 2.1rem; }
+
+.features {
+  color: #FFF;
+  font-size: 1.7rem; }
+
+.featureIcons {
+  color: #FFF;
+  font-size: 2.4rem;
+  transform: translateY(-0.5rem); }
+
+.column1Grid {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  grid-template-rows: 8rem repeat(4, 1fr);
+  grid-template-areas: "c1header c1header" "c1f1 c1i1" "c1f2 c1i2" "c1f3 c1i3" "c1f4 c1i4"; }
+  .column1Grid .c1header {
+    grid-area: c1header; }
+  .column1Grid .c1f1 {
+    grid-area: c1f1; }
+  .column1Grid .c1i1 {
+    grid-area: c1i1; }
+  .column1Grid .c1f2 {
+    grid-area: c1f2; }
+  .column1Grid .c1i2 {
+    grid-area: c1i2; }
+  .column1Grid .c1f3 {
+    grid-area: c1f3; }
+  .column1Grid .c1i3 {
+    grid-area: c1i3; }
+  .column1Grid .c1f4 {
+    grid-area: c1f4; }
+  .column1Grid .c1i4 {
+    grid-area: c1i4; }
+
+.column2Grid {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  grid-template-rows: 8rem repeat(6, 1fr);
+  grid-template-areas: "c2header c2header" "c2f1 c2i1" "c2f2 c2i2" "c2f3 c2i3" "c2f4 c2i4" "c2f5 c2i5" "c2f6 c2i6"; }
+  .column2Grid .c2header {
+    grid-area: c2header; }
+  .column2Grid .c2f1 {
+    grid-area: c2f1; }
+  .column2Grid .c2i1 {
+    grid-area: c2i1; }
+  .column2Grid .c2f2 {
+    grid-area: c2f2; }
+  .column2Grid .c2i2 {
+    grid-area: c2i2; }
+  .column2Grid .c2f3 {
+    grid-area: c2f3; }
+  .column2Grid .c2i3 {
+    grid-area: c2i3; }
+  .column2Grid .c2f4 {
+    grid-area: c2f4; }
+  .column2Grid .c2i4 {
+    grid-area: c2i4; }
+  .column2Grid .c2f5 {
+    grid-area: c2f5; }
+  .column2Grid .c2i5 {
+    grid-area: c2i5; }
+  .column2Grid .c2f6 {
+    grid-area: c2f6; }
+  .column2Grid .c2i6 {
+    grid-area: c2i6; }
+
+.column3Grid {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  grid-template-rows: 8rem repeat(4, 1fr);
+  grid-template-areas: "c3header c3header" "c3f1 c3i1" "c3f2 c3i2" "c3f3 c3i3" "c3f4 c3i4"; }
+  .column3Grid .c3header {
+    grid-area: c3header; }
+  .column3Grid .c3f1 {
+    grid-area: c3f1; }
+  .column3Grid .c3i1 {
+    grid-area: c3i1; }
+  .column3Grid .c3f2 {
+    grid-area: c3f2; }
+  .column3Grid .c3i2 {
+    grid-area: c3i2; }
+  .column3Grid .c3f3 {
+    grid-area: c3f3; }
+  .column3Grid .c3i3 {
+    grid-area: c3i3; }
+  .column3Grid .c3f4 {
+    grid-area: c3f4; }
+  .column3Grid .c3i4 {
+    grid-area: c3i4; }
+
+.column1Grid, .column2Grid, .column3Grid {
+  align-items: center; }

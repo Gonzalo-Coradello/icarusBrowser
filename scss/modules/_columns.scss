@@ -1,0 +1,163 @@
+.columna{
+    background-color: $color-dark-transparent;
+    height: 45rem;
+    margin-left: 5px;
+    border-radius: 18px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .featuresHeader{
+    color: $color-yellow;
+    font-weight: 600;
+    justify-self: center;
+    font-size: 2.1rem;
+  }
+
+  .features{
+    color: #FFF;
+    font-size: 1.7rem;
+  }
+  
+  .featureIcons{
+    color: #FFF;
+    font-size: 2.4rem;
+    transform: translateY(-.5rem);
+  }
+
+//   Grids
+
+.column1Grid{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: 8rem repeat(4, 1fr);
+    grid-template-areas: 
+    "c1header c1header"
+    "c1f1 c1i1"
+    "c1f2 c1i2"
+    "c1f3 c1i3"
+    "c1f4 c1i4";
+    .c1header{
+        grid-area: c1header;
+    }
+    .c1f1{
+        grid-area: c1f1;
+    }
+    .c1i1{
+        grid-area: c1i1;
+    }
+    .c1f2{
+        grid-area: c1f2;
+    }
+    .c1i2{
+        grid-area: c1i2;
+    }
+    .c1f3{
+        grid-area: c1f3;
+    }
+    .c1i3{
+        grid-area: c1i3;
+    }
+    .c1f4{
+        grid-area: c1f4;
+    }
+    .c1i4{
+        grid-area: c1i4;
+    }
+}
+
+.column2Grid{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: 8rem repeat(6, 1fr);
+    grid-template-areas: 
+    "c2header c2header"
+    "c2f1 c2i1"
+    "c2f2 c2i2"
+    "c2f3 c2i3"
+    "c2f4 c2i4"
+    "c2f5 c2i5"
+    "c2f6 c2i6";
+    .c2header{
+        grid-area: c2header;
+    }
+    .c2f1{
+        grid-area: c2f1;
+    }
+    .c2i1{
+        grid-area: c2i1;
+    }
+    .c2f2{
+        grid-area: c2f2;
+    }
+    .c2i2{
+        grid-area: c2i2;
+    }
+    .c2f3{
+        grid-area: c2f3;
+    }
+    .c2i3{
+        grid-area: c2i3;
+    }
+    .c2f4{
+        grid-area: c2f4;
+    }
+    .c2i4{
+        grid-area: c2i4;
+    }
+    .c2f5{
+        grid-area: c2f5;
+    }
+    .c2i5{
+        grid-area: c2i5;
+    }
+    .c2f6{
+        grid-area: c2f6;
+    }
+    .c2i6{
+        grid-area: c2i6;
+    }
+}
+
+.column3Grid{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: 8rem repeat(4, 1fr);
+    grid-template-areas: 
+    "c3header c3header"
+    "c3f1 c3i1"
+    "c3f2 c3i2"
+    "c3f3 c3i3"
+    "c3f4 c3i4";
+    .c3header{
+        grid-area: c3header;
+    }
+    .c3f1{
+        grid-area: c3f1;
+    }
+    .c3i1{
+        grid-area: c3i1;
+    }
+    .c3f2{
+        grid-area: c3f2;
+    }
+    .c3i2{
+        grid-area: c3i2;
+    }
+    .c3f3{
+        grid-area: c3f3;
+    }
+    .c3i3{
+        grid-area: c3i3;
+    }
+    .c3f4{
+        grid-area: c3f4;
+    }
+    .c3i4{
+        grid-area: c3i4;
+    }
+}
+
+.column1Grid, .column2Grid, .column3Grid{
+    align-items: center;
+}
